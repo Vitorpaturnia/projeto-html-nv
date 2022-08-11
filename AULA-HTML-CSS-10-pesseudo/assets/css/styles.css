@@ -1,0 +1,42 @@
+.heading {
+    transition: all 1s ease-in-out;
+}
+
+.heading:hover {
+    background-color: red;
+}
+
+a {
+    color: darkorange;
+}
+
+a:link {
+    color: brown;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:hover {
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    background-color: darkcyan;
+    color: white;
+    text-decoration: none ;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5 );
+    outline: none;
+    border: 1px solid black;
+}
+
+input:disabled {
+    background: rebeccapurple;
+    cursor: not-allowed;
+}
